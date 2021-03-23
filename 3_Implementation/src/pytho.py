@@ -1,9 +1,10 @@
 # importing libraries for better implementation of code
 import pandas as pd
-import openpyxl
 from openpyxl import load_workbook
 # read function has been  defined for read all the sheets in  excel file
-z = pd.read_excel('pythonexcel.xlsx', sheet_name=['Sheet1', 'Sheet2', 'Sheet3', 'Sheet4', 'Sheet5'])
+z = pd.read_excel('python excel final.xlsx', sheet_name=['Sheet1',
+                                                         'Sheet2', 'Sheet3',
+                                                         'Sheet4', 'Sheet5'])
 # Creating empty list
 tmp = []
 # creating empty data frame
@@ -22,13 +23,18 @@ for _ in range(n):
     tmp1.append(email)
     tmp.append(tmp1)
 # taking all the columns from 5 sheets in to data frame df1
-df1 = pd.DataFrame(columns=['SL#', 'PS number', 'Display Name', 'Official Email Address',
-       'company name', 'Year of join', 'Room No', 'Block', 'Area', 'location',
-       'Training Room', 'Training Name', 'Domain', 'c lang', 'linux', 'python',
-       'Salery', 'Designation', 'Blood group', 'Gender', 'Phone no',
-       'Adhar Num', 'In Time', 'Out Time', 'BUS NUM', 'Attendence',
-       'Self decleration', 'Temperature', 'Age', 'Marital status', 'DOB',
-       'Country', 'State', 'Initial'])
+df1 = pd.DataFrame(columns=['SL#', 'PS number', 'Display Name',
+                            'Official Email Address', 'company name',
+                            'Year of join', 'Room No', 'Block', 'Area',
+                            'location', 'Training Room',
+                            'Training Name', 'Domain', 'c lang',
+                            'linux', 'python', 'Salary',
+                            'Designation', 'Blood group', 'Gender',
+                            'Phone no', 'Aadhaar Num', 'In Time',
+                            'Out Time', 'BUS NUM', 'Attendance',
+                            'Self declaration', 'Temperature',
+                            'Age', 'Marital status', 'DOB',
+                            'Country', 'State', 'Initial'])
 # taking input entries and storing in i
 for i in tmp:
     h, name, email = i
@@ -36,7 +42,8 @@ for i in tmp:
     y = z['Sheet1']
 
     y = y[(y['PS number'] == h) & (y['Display Name'] == name) & (y['Official Email Address'] == email)]
-# if the length is  equals to any number then it will move to for loop else it prints no match
+# if the length is  equals to any number then it will move to for loop
+# else it prints no match
     if len(y) == 0:
         print('No match')
     else:
@@ -45,7 +52,6 @@ for i in tmp:
             x = z[i]
             t = x[(x['PS number'] == h) & (x['Display Name'] == name) & (x['Official Email Address'] == email)]
             col = x.columns
-            
             for j in col:
                 df[j] = t[j]
                 count = count+1
@@ -58,8 +64,8 @@ df3.at[1, 'Total columns'] = (len(df1.columns)*n)
 # load workbook function only works if
 # you have an already created file on your disk
 # and you want to open workbook for some operation.
-book = load_workbook('pythonexcel.xlsx')
-writer = pd.ExcelWriter('pythonexcel.xlsx', engine='openpyxl')
+book = load_workbook('python excel final.xlsx')
+writer = pd.ExcelWriter('python excel final.xlsx', engine='openpyxl')
 writer.book = book
 # ExcelWriter for some reason uses
 # writer.sheets to access the sheet.
