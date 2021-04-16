@@ -13,7 +13,11 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
-
+ ## Features that are integrated in this project are
+ 
+* Reading multiple excel sheets each having 40 rows x 10 column
+* Searching methods to search details for user input values
+* Combining all the similar data in news master sheet
 
 ## Challenges faced and how were they overcome
 * Implementing the library
