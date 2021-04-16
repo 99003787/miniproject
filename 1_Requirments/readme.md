@@ -32,27 +32,26 @@ It is a Data Set problem that will allow to users to retrive data from data set.
 
 # 4W&#39;s and 1&#39;H
 
-## Who:
-*	people in the organisation ,managers ,colleagues
-*	mentors and GEA academy can use the data for evaluation
-*	For checking the information of people in nalanda and takshasila
+## Why:
+* We are using to retrieve the data of an individual candidate from the excel workbook of 5 sheets where all the relevant data of 40 candidates is present.
+* We can easily access the details of that individual by giving some input such as name, Ps no and email id.
 
 
 *TBD*
 
 ## What:
- *	We are preparing the master excel sheet to search and retrive data
- *	for easy search of a particular cell or data of a person
- *	provides information of every person details like bio,academics,health 
+ *		We are preparing the master excel sheet to search and retrieve data from all the 5 excel sheets that are created.
+* It is used for easy search of a particular cell or data of a person
+*	It provides information of every person details like bio, academics, health and personal details
+ 
 
 
 *TBD*
 
 ## When:
-*	evalaution of exams
-*	searching for person information
-*	contact information
-*	health check
+*	Searching for person information
+* To get the contact information
+* To get the required details of that person educational qualification
 
 
 
@@ -67,9 +66,10 @@ It is a Data Set problem that will allow to users to retrive data from data set.
 *TBD*
 
 ## How:
-*	Input:- giving the ps no,name or email of person
-*	Output: -gives all the relevant information of person related to ps no, name or email
-*	source: -excel sheets  give the output into the master sheet
+*	Input: - We need to give 3 inputs such as Name, Ps No and Email Id.
+* Output: - We will get all the relevant information of that person whose name, PS no and email id is given. 
+* source: - All the relevant data will get copied in master sheet.
+
 
 
 
