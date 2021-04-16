@@ -37,16 +37,13 @@ It is a Data Set problem that will allow to users to retrive data from data set.
 * We can easily access the details of that individual by giving some input such as name, Ps no and email id.
 
 
-*TBD*
 
 ## What:
- *		We are preparing the master excel sheet to search and retrieve data from all the 5 excel sheets that are created.
+*	We are preparing the master excel sheet to search and retrieve data from all the 5 excel sheets that are created.
 * It is used for easy search of a particular cell or data of a person
 *	It provides information of every person details like bio, academics, health and personal details
  
 
-
-*TBD*
 
 ## When:
 *	Searching for person information
@@ -54,16 +51,11 @@ It is a Data Set problem that will allow to users to retrive data from data set.
 * To get the required details of that person educational qualification
 
 
-
-*TBD*
-
 ## Where:
 *	To check the information and bio of a person
 *	Very useful during emergency times like health issues
 *	We can also use it for evaluation of marks using the mail,search the location of person
 
-
-*TBD*
 
 ## How:
 *	Input: - We need to give 3 inputs such as Name, Ps No and Email Id.
