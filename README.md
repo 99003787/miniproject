@@ -12,3 +12,14 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
+
+
+
+## Challenges faced and how were they overcome
+* Implementing the library
+* Writing data in master sheet
+* Creating the database
+* Reading the file path from multiple directory
+
+
+
