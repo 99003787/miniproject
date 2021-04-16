@@ -1,4 +1,4 @@
-## python_miniproject
+## Python_miniproject
 
 ## Introduction-
 
