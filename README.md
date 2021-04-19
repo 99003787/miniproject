@@ -16,9 +16,9 @@ Folder             | Description
 ## Library required for running this project:
 
 SLNo |	Library name	| Operation	Install Library Code
------------------------------------------------------------------
-1 |	Openpyxl	| Reading and writing excel sheet	pip install openpyxl
-2 |	Pandas | To automate excel sheet	pip install pandas
+-----|--------------|---------------------------------------------
+1    |	Openpyxl	    | Reading and writing excel sheet	pip install openpyxl
+2    |	Pandas       | To automate excel sheet	pip install pandas
 
 ## About the project
 The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user by different paths given by him. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
